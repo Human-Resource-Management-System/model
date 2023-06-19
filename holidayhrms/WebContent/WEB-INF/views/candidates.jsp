@@ -74,11 +74,11 @@
                 if (candidates != null) {
                     for (Candidate candidate : candidates) { %>
                         <tr>
-                            <td><%= candidate.getCand_id() %></td>
-                            <td><%= candidate.getCand_firstname()%></td>
-                            <td><%= candidate.getCand_lastname() %></td>
-                            <td><%= candidate.getCand_rdate() %></td>
-                            <td><%= candidate.getCand_status() %></td>
+                            <td><%= candidate.getCandId() %></td>
+                            <td><%= candidate.getCandFirstName()%></td>
+                            <td><%= candidate.getCandMiddleName() %></td>
+                            <td><%= candidate.getCandRDate() %></td>
+                            <td><%= candidate.getCandStatus() %></td>
             				<td><a href="#"> View</a></td>
                         </tr>
                     <% }
